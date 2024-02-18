@@ -1,44 +1,44 @@
 Hello I'm Mostafa Alsaddek
 -------------
 -------------
-In this small project I use Eclipse, Java, Cucumber, Junit runner.
+In this small project, I use Eclipse, Java, Cucumber, and JUnit runner.
 
 I make 2 scenarios
 1- Login page
-I implement some TCs like login without password, login with wrong Password, login with correct Usernameand Password
+I implement some TCs like login without password, login with the wrong Password, log in with correct Username and Password
 
 2- Purchase Items (Main Task)
-	- I Login to home page
+	- I Login to the home page
 	- I filter the products
 	- I select some of them 
 	- I save the names and prices to use them in assertion later
 	- I complete the purchase cycle
-	- I logout
+	- I log out
 
-You can get the seature file in (src/test/java/featureFiles/SauceDemo.feature)
+You can get the feature file in (src/test/java/featureFiles/SauceDemo.feature)
 	
-I make a static wait of 3 second in last step of each scenario before closing the window to notice the end of each sceanrio.
+I make a static wait of 3 seconds in the last step of each scenario before closing the window to notice the end of each scenario.
 
-I save the locators in excel sheet (src/main/resources/Locators.xlsx)
-I make a class to read the locators from the excel (src/main/java/javaFiles/ReadFromExcel.java)
+I save the locators in an Excel sheet (src/main/resources/Locators.xlsx)
+I make a class to read the locators from Excel (src/main/java/javaFiles/ReadFromExcel.java)
 
-I create a class to Get element by locator after reading the locator from the excel (src/main/java/javaFiles/GetElementByLocator.java)
+I create a class to Get elements by locator after reading the locator from excel (src/main/java/javaFiles/GetElementByLocator.java)
 
-I create a class that contain all the links I need in this project
+I create a class that contains all the links I need for this project
 
 I create all needed actions on elements after getting them from GetElementByLocator.java in (src/main/java/javaFiles/JavaFunctions.java)
 
-For Cucumber methedology I create the step definition file (src/main/java/stepDefinitionsFiles/SauceDemoSD.java) that contain the actions for each command in the feature file.
+For Cucumber methodology I create the step definition file (src/main/java/stepDefinitionsFiles/SauceDemoSD.java) that contains the actions for each command in the feature file.
 
 -------------------------------
-To run this application you need to import the project to eclipse then Go to Runner file (src/test/java/runnerFiles/Runner.java) then run as "JUnit Test"
+To run this application you need to import the project to Eclipse then Go to the Runner file (src/test/java/runnerFiles/Runner.java) then run as "JUnit Test"
 -------------------------------
 I attach "chromedriver" to this project as I run on chrome
 -------------------------------
 Note: I use MAC machine and Eclipse IDE for Java Developers Version: 2022-12 (4.26.0)
 -------------------------------
-Note: I attach a recorded video for run the project after I finish to save my work in case the project doesn't work at your side also, I attched screenshots of the cucumber report.
-
+Note: I attach a recorded video (https://drive.google.com/file/d/1muAl3gRYqt6mbJtBVFusqNm7svzc9Phf/view) for running the project after I finish to save my work in case the project doesn't work on your side also, 
+I attached screenshots of the cucumber report.
 -------------
 -------------
 Mostafa Alsaddek
